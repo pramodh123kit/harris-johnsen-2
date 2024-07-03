@@ -1,9 +1,9 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
+import giveback from '../../assets/Home-page.png';
+import aaa1a from '../../assets/a.png';
+import ciliona from '../../assets/ciliona.png'
+import estate from '../../assets/estate.png';
 
 function Projects() {
   return (
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={giveback}
+          link="https://github.com/pramodh123kit/GiveBack-implementation"
+          h3="GiveBack"
+          p="MERN Stack Project"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={aaa1a}
+          link="https://github.com/pramodh123kit/Java_Online_Shopping_Center_OOP_CW"
+          h3="Shopping Manager System"
+          p="Java OOP, Swing Project"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={ciliona}
+          link="https://pramodh123kit.github.io/clientside-portfolio/"
+          h3="Frontend Portfolio"
+          p="HTML, CSS, JS Project"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={estate}
+          link="https://github.com/pramodh123kit/ACS-CW"
+          h3="React Frontend"
+          p="Estate Agent Website"
         />
       </div>
     </section>
